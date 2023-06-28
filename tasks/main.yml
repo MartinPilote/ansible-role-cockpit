@@ -1,0 +1,11 @@
+---
+- name: Cockpit | Install package
+  package:
+    name: "cockpit"
+    state: latest
+
+- name: Cockpit | Enable Service
+  systemd:
+    name: cockpit.socket
+    state: started
+    enabled: yes
