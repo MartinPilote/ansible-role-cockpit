@@ -1,7 +1,7 @@
 # Ansible Role: Cockpit
 
-![GitHub](https://img.shields.io/github/license/MartinPilote/ansible_cockpit)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/MartinPilote/ansible_cockpit/main)
+![GitHub](https://img.shields.io/github/license/MartinPilote/ansible-role-cockpit)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/MartinPilote/ansible-role-cockpit/main)
 
 Role to install and configure Cockpit on RHEL
 
@@ -10,7 +10,7 @@ Role to install and configure Cockpit on RHEL
 
 ```sh
 cd roles
-git submodule add https://github.com/MartinPilote/ansible_role_cockpit.git cockpit
+git submodule add https://github.com/MartinPilote/ansible-role-cockpit.git cockpit
 ```
 
 <!-- LICENSE -->
